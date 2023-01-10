@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('../fonts/BebasNeue.otf')
+    format('opentype');
+    font-display: swap;
+}
+
+:root {
+    --cor1: #F40612; /* Cor botões */
+    --cor2: #E60510; /* Cor logo */
+    --cor3: #0B6699;
+    --cor4: #1C9DE6;
+    --cor5: #222222;
+
+    --font1: 'BebasNeue', cursive;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    min-height: 100vh;
+    font-weight: bold;
+}
+
+header {
+    background-color: black;
+    padding: 5px;
+    border-bottom: 10px solid var(--cor5);
+}
+
+nav {
+    margin-left: 20px;
+}
+
+.logo {
+    font-family: var(--font1);
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    color: var(--cor2);
+    background-color: transparent;
+    text-transform: uppercase;
+}
+
+.home-intro {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    background-image: url('../imagens/Pinguinflix-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset 5px 35px 170px black;
+    width: 100%;
+    height: 90vh;
+}
+
+@media screen and (max-width: 667px) {
+
+}
