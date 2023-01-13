@@ -49,6 +49,7 @@ header {
 }
 
 .container {
+    display: block;
     position: relative;
     top: 30vh;
     margin: 0 auto;
@@ -108,19 +109,43 @@ header {
 }
 
 
+@media screen and (max-width: 1200px) {
+    .container {
+        left: -10vw;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        left: -13vw;
+    }
+
+    .menu-bar > ul {
+        margin: auto;
+    }
+
+    .menu-bar > ul > a > li {
+        font-size: 2em;
+        padding: 2px 50px;
+        
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+}
+
 
 @media screen and (max-width: 667px) {
 
     .container {
-        position: relative;
-        top: 30vh;
-        left: -5vw;
-        margin: 0 auto;
+        left: -13vw;
     }
 
-    .linha1 {
-        margin: auto;
-        font-size: 4em;
+    .linha1 > h1 {
+        text-align: center;
+        font-size: .5em;
 
     }
 
