@@ -35,12 +35,17 @@ li {
     color: white;
     font-weight: bold;
     font-size: 2em;
+    padding: 2px;
 }
 
 header {
     height: 75vh;
     z-index: 999;
     background-image: linear-gradient(180deg, transparent, black);
+}
+
+.menu-bar > ul > a  > li {
+    padding: 2px 40px;
 }
 
 .container {
@@ -78,15 +83,28 @@ header {
     margin: auto;
 }
 
+
+
 .carrossel-1 {
-    height: 60vh;
+    height: 80vh;
     background-color: black;
 }
 
-.carrossel-1 > h1 {
+.carrossel-1 > .container1 > h1 {
     font-size: 1.5em;
     color: white;
     padding: 20px;
+}
+
+.container1 {
+    margin: auto;
+    width: 90%;
+}
+
+.item {
+    width: 200px;
+    height: 300px;
+    background-color: lightgray;
 }
 
 
@@ -96,13 +114,13 @@ header {
     .container {
         position: relative;
         top: 30vh;
-        left: -12vw;
+        left: -5vw;
         margin: 0 auto;
     }
 
     .linha1 {
         margin: auto;
-        font-size: 5em;
+        font-size: 4em;
 
     }
 
@@ -110,13 +128,20 @@ header {
         width: 80%;
     }
     
+    .menu-bar > ul > a  > li {
+        margin: auto;
+        font-size: 1.5em;
+        padding: 2px 20px;
+        
+    }
 
     .carrossel-1 {
         height: 100vh;
     }
 
-    .carrossel-1 > h1 {
+    .carrossel-1 > .container1 > h1 {
         text-align: center;
+        font-size: 1em;
     }
     
 }
