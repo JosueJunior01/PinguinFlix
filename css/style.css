@@ -30,6 +30,10 @@ body{
     background-size: cover;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
     display: inline-block;
     color: white;
